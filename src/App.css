@@ -1,0 +1,36 @@
+.app {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.posts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.post-card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.post-card img {
+  width: 100%;
+  display: block;
+}
+
+.post-card h3 {
+  margin: 10px;
+  font-size: 1.2em;
+}
+
+.post-card p {
+  margin: 0 10px 10px 10px;
+  font-size: 0.9em;
+  color: #555;
+}
